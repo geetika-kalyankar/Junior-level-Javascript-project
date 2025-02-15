@@ -3,19 +3,21 @@
 
 ### Links
 
-- Solution URL: [Github](https://github.com/shweta-dabhole/Frontend-Mentor-Challenges/tree/main/intro-section-with-dropdown-navigation-main)
-- Live Site URL: [Netlify Link](https://intro-dropdown-shweta-codesubtle.netlify.app/)
+- Solution URL: [Github](https://github.com/geetika-kalyankar/Junior-level-Javascript-project/tree/main/Junior%20level/contact-form-main)
+- Live Site URL: [Netlify Link](https://fastidious-dusk-9a5789.netlify.app/)
 
 ### ScreenShot
 
-![Desktop](https://github.com/shweta-dabhole/Frontend-Mentor-Challenges/blob/main/intro-section-with-dropdown-navigation-main/output/desktop%20view.png)
-![Desktop](https://github.com/shweta-dabhole/Frontend-Mentor-Challenges/blob/main/intro-section-with-dropdown-navigation-main/output/desktop%20dropdown%20menu%20view.png)
-![Mobile](https://github.com/shweta-dabhole/Frontend-Mentor-Challenges/blob/main/intro-section-with-dropdown-navigation-main/output/mobile%20view.png)
-![Mobile](https://github.com/shweta-dabhole/Frontend-Mentor-Challenges/blob/main/intro-section-with-dropdown-navigation-main/output/mobile%20dropdown%20menu%20view.png)
+![Desktop](https://github.com/geetika-kalyankar/Junior-level-Javascript-project/blob/main/Junior%20level/contact-form-main/ScreenShot/Error%20D.png)
+![Desktop](https://github.com/geetika-kalyankar/Junior-level-Javascript-project/blob/main/Junior%20level/contact-form-main/ScreenShot/Form%20-D.png)
+![Desktop](https://github.com/geetika-kalyankar/Junior-level-Javascript-project/blob/main/Junior%20level/contact-form-main/ScreenShot/Success%20D.png)
+![Mobile](https://github.com/geetika-kalyankar/Junior-level-Javascript-project/blob/main/Junior%20level/contact-form-main/ScreenShot/Form%20M.png)
+![Mobile](https://github.com/geetika-kalyankar/Junior-level-Javascript-project/blob/main/Junior%20level/contact-form-main/ScreenShot/Error%20M.png)
+![Mobile](https://github.com/geetika-kalyankar/Junior-level-Javascript-project/blob/main/Junior%20level/contact-form-main/ScreenShot/Form%20M.png)
 
 ### Author
 
-- [Shweta-Dabhole](https://www.linkedin.com/in/shweta-dabhole/)
+- [Geetika-Kalyankar](https://www.linkedin.com/in/geetika-kalyankar/)
 
 
 ### Built with
