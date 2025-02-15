@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+
+
+  <section class="form">
+    <h1>Contact Us</h1>
+    <div class="names rows">
+      <div class="fname">
+        <p>First name *</p>
+        <input type="firstname" class="firstname" >
+        <span class="error1 ">This field is required..!!</span>
+      </div>
+      <div class="lname">
+        <p>Last name*</p>
+        <input type="lastname" class="lastname" >
+        <span class="error2 ">This field is required..!!</span>
+      </div>
+    </div>
+    <div class="email-cont">
+      <p>Email Address *</p>
+      <input type="email" class="emailInput">
+      <span class="e-error ">This email is incorrect</span>
+      <span class=" e-error2">This field is required..!!</span>
+    </div>
+   
+    <div class="query ">
+      <p>Query Type *</p>
+      <div class="check-boxs">
+        <div class="field">
+            <input type="radio" id="general" name="drone" value="General Query" class="check" />
+            <label for="general">General Query</label>
+        </div>
+        <div class="field">
+            <input type="radio" id="Support " name="drone" value="Support Request" class="check2" />
+            <label for="general">Support Request</label>
+        </div>
+      </div> 
+      <span class="check-error error">Please Select the query type</span>
+    </div>
+    <div class="message">
+      <p>Message *</p>
+      <textarea name="message" id="message" class="message"></textarea>
+      <span class="error3">This field is required..!!</span>
+    </div>
+   
+    <div class="check-box">
+      <div class="check">
+        <input type="checkbox" id="mand" class="check3">
+      <label for="mand">I consent to being contacted by the team. *</label>
+      </div>
+      <span class="error4">To submit this form, please consent to being contacted</span>
+    </div>
+    <button class="btn">Submit</button>
+   
+  </section>
+
+  <!-- Submit
+
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon! -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Geetika</a>.
+  </div>
+</body>
+</html>

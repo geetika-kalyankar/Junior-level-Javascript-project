@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <Header>
+    <h2>SPLI</h2>
+    <h2>TTER</h2>
+  </Header>
+  <div class="calculator-box">
+    <div class="right-section">
+      <div class="bill-container">
+        <p class="bill">Bill</p>
+        <input type="text" class="bill-count input">
+      </div>
+      <div class="select-opt">
+        <div>
+          <p>Select Tip % </p>
+        </div>
+        <div class="button-container">
+          <button class="per">5%</button>
+          <button class="per">10%</button>
+          <button class="per">15%</button>
+          <button class="per">25%</button>
+          <button class="per">50%</button>
+          <input type="text" placeholder="" class="custom-type per">
+      </div>
+     </div>
+      <div class="No-people">
+        <div class="text">
+          <p class="count">Number of people</p>
+          <p class="error">Can't be zero</p>
+        </div>
+       
+        <input type="text " class="input input-2">
+      </div>
+    </div>
+    <div class="left-section">
+      <div class="upper">
+        <div class="total">
+          <div class="text-content">
+            <p class="w-text">Tip Amount</p>
+            <p> / person</p>
+          </div>
+          <div class="tip-output">
+            $0.00
+          </div>
+        </div>
+        <div class="total">
+          <div class="text-content">
+            <p class="w-text">Total</p>
+            <p> / person</p>
+          </div>
+          <div class="total-output">
+            $0.00
+          </div>
+        </div>
+      </div>
+      <div class="lower">
+        <button class="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
